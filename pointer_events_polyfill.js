@@ -38,7 +38,7 @@ PointerEventsPolyfill.initialize = function(options){
     if(PointerEventsPolyfill.singleton == null)
       PointerEventsPolyfill.singleton = new PointerEventsPolyfill(options);
     return PointerEventsPolyfill.singleton;
-}
+};
 
 // handle mouse events w/ support for pointer-events: none
 PointerEventsPolyfill.prototype.register_mouse_events = function(){
@@ -65,4 +65,4 @@ PointerEventsPolyfill.prototype.register_mouse_events = function(){
         }
         return true;
     });
-}
+};

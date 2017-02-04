@@ -8,9 +8,11 @@ Include any reasonable recent version of **jQuery** and **pointer\_events\_polyf
 
 ## Basic usage:
 
-    $(document).ready(function(){
-      PointerEventsPolyfill.initialize({});
-    });
+```js
+$(document).ready(function(){
+  PointerEventsPolyfill.initialize({});
+});
+```
 
 That's it! Any "pointer-events: none" attributes will now work seamlessly in IE.
 
